@@ -1,3 +1,3 @@
-require('./d.js');
+require('d');
 
 console.log('This is c.js...');
