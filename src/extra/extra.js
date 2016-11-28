@@ -1,1 +1,2 @@
-console.log('This is extra.js');
+ require('../d.js');
+ console.log('This is extra.js');
