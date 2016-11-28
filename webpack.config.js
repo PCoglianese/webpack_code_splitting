@@ -21,7 +21,7 @@ module.exports = {
             name: 'commons',
             minChunks: 2,
             // children: true, // extract to parent, not into commons.js
-            // async: true, // behavior not be understood yet
+            // async: true, // behavior not understood yet
             // minSize: 1
         })
     ],
