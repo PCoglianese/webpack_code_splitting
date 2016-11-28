@@ -16,9 +16,8 @@ module.exports = {
         new HtmlWebpackPlugin({template: './src/index.html'}),
         new webpack.optimize.CommonsChunkPlugin({
             name: 'common',
-          
-            
             minChunks: 2,
+            children: true,
             async: true
         })
     ],
