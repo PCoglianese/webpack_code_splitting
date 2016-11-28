@@ -7,6 +7,7 @@ $('.load_link').on('click', function() {
     
     require.ensure(['./extra'], function(require) {
         require('./extra');
+        require('./b.js');
 
     }, 'extra');
 });
